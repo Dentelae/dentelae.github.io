@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link href="http://vjs.zencdn.net/6.2.7/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Tajam</title>
+</head>
+<body>
+
+  <div id="wrapper">
+
+    <header>
+      <div class="container-fluid">
+        <div class="header__top">
+          <div class="logo">
+            <a href="" title="Tajam by Daniil Gray">
+              <img src="images/logo.png">
+              <div class="logo_text">
+                <h1>tajam</h1>
+              </div>
+            </a>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="/">HOME</a></li>
+              <li><a href="#about_us">ABOUT</a></li>
+              <li><a href="#expertise_us">EXPERTISE</a></li>
+              <li><a href="#our_teams">TEAMS</a></li>
+              <li><a href="#our_works">WORKS</a></li>
+              <li><a href="#people_say">PEOPLE SAY</a></li>
+              <li><a href="#contacts_us">CONTACT</a></li>
+            </ul>
+          </nav>
+          <div class="mobi">
+            <div class="container-menu">
+              <div id="burg">
+                <p>MENU</p>
+                <a>
+                  <span class="bar" id="top"></span>
+                  <span class="bar" id="middle"></span>
+                  <span class="bar" id="bottom"></span>
+                </a>
+              </div>
+              <nav class="mobile-menu">
+                <ul class="menu-mobile">
+                  <li><a href="/">HOME</a></li>
+                  <li><a href="#about_us">ABOUT</a></li>
+                  <li><a href="#expertise_us">EXPERTISE</a></li>
+                  <li><a href="#our_teams">TEAMS</a></li>
+                  <li><a href="#our_works">WORKS</a></li>
+                  <li><a href="#people_say">PEOPLE SAY</a></li>
+                  <li><a href="#contacts_us">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div id="slides">
+          <div class="slide showing">
+            <h1>We Are Awesome Creative Agency 1</h1>
+            <hr color="#04ddd0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laudantium perferendis reiciendis accusamus vero, accusantium quidem eveniet voluptatibus distinctio, corporis fuga. Amet facere consectetur repudiandae nostrum ullam nisi, natus quas, quam hic harum nam nesciunt?</p>
+            <input type="submit" class="tajam_btn" value="LEARN MORE"></input>
+          </div>
+          <div class="slide">
+            <h1>We Are Awesome Creative Agency 2</h1>
+            <hr color="#04ddd0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laudantium perferendis reiciendis accusamus vero, accusantium quidem eveniet voluptatibus distinctio, corporis fuga. Amet facere consectetur repudiandae nostrum ullam nisi, natus quas, quam hic harum nam nesciunt?</p>
+            <input type="submit" class="tajam_btn" value="LEARN MORE"></input>
+          </div>
+          <div class="slide">
+            <h1>We Are Awesome Creative Agency 3</h1>
+            <hr color="#04ddd0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laudantium perferendis reiciendis accusamus vero, accusantium quidem eveniet voluptatibus distinctio, corporis fuga. Amet facere consectetur repudiandae nostrum ullam nisi, natus quas, quam hic harum nam nesciunt?</p>
+            <input type="submit" class="tajam_btn" value="LEARN MORE"></input>
+          </div>
+          <div class="slide">
+            <h1>We Are Awesome Creative Agency 4</h1>
+            <hr color="#04ddd0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laudantium perferendis reiciendis accusamus vero, accusantium quidem eveniet voluptatibus distinctio, corporis fuga. Amet facere consectetur repudiandae nostrum ullam nisi, natus quas, quam hic harum nam nesciunt?</p>
+            <input type="submit" class="tajam_btn" value="LEARN MORE"></input>
+          </div>
+        </div>
+        <div class="div-1" style="text-align: center;">
+          <span class="dot active" onclick="curSlide(1)"></span>
+          <span class="dot" onclick="curSlide(2)"></span>
+          <span class="dot" onclick="curSlide(3)"></span>
+          <span class="dot" onclick="curSlide(4)"></span>
+        </div>
+        
+        
+      </div>
+    </header>
+
+    <div id="content">
+
+      <div id="about_us">
+        <div class="about">
+          <div class="container-fluid">
+            <div class="image">
+              <img src="images/logo2.png" alt="">
+            </div>
+            <div class="about_txt">
+              <h1>OUR STORY</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quaerat in eius eligendi necessitatibus nulla voluptatum molestiae quod illo aspernatur. Aliquam impedit error architecto, modi.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, in, itaque rem ut nulla non, obcaecati facilis ipsam possimus voluptas officiis fuga repellat consectetur eveniet.</p>
+              <input type="submit" class="tajam_btn" value="LEARN MORE"></input>
+            </div>
+          </div>
+          <div class="about_video">
+            <video id="my_video_1" class="video-js vjs-default-skin" width="100%" height="100%" controls preload="none" poster='images/about.png' data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+              <source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+              <source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <div id="expertise_us">
+        <div class="expertise">
+          <div class="container-fluid">
+            <h1>EXPERTISE</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, quo.</p>
+            <hr color="#333">
+        
+            <div class="items-1">
+              <div class="item-1">
+                <img src="images/icon1.png" alt="">
+                <h2>WEB DESIGN & DEVELOPMENT</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, temporibus.</p>
+              </div>
+              <div class="item-2">
+                <img src="images/icon2.png" alt="">
+                <h2>BRANDING IDENTITY</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, temporibus.</p>
+              </div>
+              <div class="item-3">
+                <img src="images/icon3.png" alt="">
+                <h2>MOBILE APP</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, temporibus.</p>
+              </div>
+            </div>
+            <div class="items-2">
+              <div class="item-1">
+                <img src="images/icon4.png" alt="">
+                <h2>SEARCH ENGINE OPTIMIZATION</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, temporibus.</p>
+              </div>
+              <div class="item-2">
+                <img src="images/icon5.png" alt="">
+                <h2>GAME DEVELOPMENT</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, temporibus.</p>
+              </div>
+              <div class="item-3">
+                <img src="images/icon6.png" alt="">
+                <h2>MADE WITH LOVE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, temporibus.</p>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+
+      <div id="our_teams">
+        <div class="our_teem">
+          <div class="container-fluid">
+            <h1>MEET OUR AMAZING TEAM</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, quo.</p>
+            <hr color="white">
+            <div class="team_sp">
+        
+              <div class="teammate">
+                <div class="teammate_img">
+                  <img src="images/teammate.png" alt="" width="100%">
+                </div>
+                <div class="teammate_sp">
+                  <h2>SEMF UCUK</h2>
+                  <p>CEO & FOUNDER</p>
+                </div>
+              </div>
+        
+              <div class="teammate">
+                <div class="teammate_img">
+                  <img src="images/teammate.png" alt="" width="100%">
+                </div>
+                <div class="teammate_sp">
+                  <h2>SEMF UCUK</h2>
+                  <p>CEO & FOUNDER</p>
+                </div>
+              </div>
+        
+              <div class="teammate">
+                <div class="teammate_img">
+                  <img src="images/teammate.png" alt="" width="100%">
+                </div>
+                <div class="teammate_sp">
+                  <h2>SEMF UCUK</h2>
+                  <p>CEO & FOUNDER</p>
+                </div>
+              </div>
+        
+              <div class="teammate">
+                <div class="teammate_img">
+                  <img src="images/teammate.png" alt="" width="100%">
+                </div>
+                <div class="teammate_sp">
+                  <h2>SEMF UCUK</h2>
+                  <p>CEO & FOUNDER</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="spoiler">
+              Become part of our dream team, let's join us!
+              <br>
+              <input type="submit" class="tajam_btn" value="WE ARE HIRING"></input>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="our_works">
+        <div class="works">
+          <div class="content_head">
+            <div class="container-fluid">
+              <h1>OUR WORKS</h1>
+              <a href=""><small>See All &#10095</small></a>
+            </div>
+          </div>
+          <div class="works-line">
+            <img src="images/works.png" alt="" width="100%">
+          </div>
+          <div class="works-line">
+            <img src="images/works.png" alt="" width="100%">
+          </div>
+          <div class="content_bottom">
+            <input type="submit" class="tajam_btn" value="LOAD MORE"></input>
+          </div>
+        </div>
+      </div>
+
+      <div id="people_say">
+        <div class="testimonials">
+          <div class="content_head">
+            <div class="container-fluid">
+              <img src="images/covichki.png" alt="">
+            </div>
+          </div>
+          <div id="cites">
+            <div class="cite showing">
+              <div class="txt">
+                1
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nisi consectetur eveniet labore ad, veniam doloribus eum quaerat nemo excepturi consequatur! Laborum consequatur similique quisquam ipsam, quos recusandae praesentium at a ipsum reiciendis. Odio deserunt, obcaecati fugit iusto delectus ea ullam magni tempore fuga est dolorem non aliquid sit eos!
+              </div>
+              <div class="teamm_about">
+                <h1>JANE GALADRIEL</h1>
+                <small>CEO TENGKUPER</small>
+              </div>
+            </div>
+            <div class="cite">
+              <div class="txt">
+                2
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eum nisi placeat est veritatis praesentium voluptatibus, accusantium sunt rerum in minus, repellat illum. Illo accusamus itaque porro necessitatibus maxime quis dicta, beatae, suscipit alias recusandae qui dolor. Nihil optio ex maiores doloribus, aliquid repellat provident neque sit! Accusamus, eos dicta.
+              </div>
+              <div class="teamm_about">
+                <h1>JANE GALADRIEL</h1>
+                <small>CEO TENGKUPER</small>
+              </div>
+            </div>
+            <div class="cite">
+              <div class="txt">
+                3
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur architecto inventore, dolores vitae nulla aperiam hic ratione porro fuga tempora odio cum dolore sint quae alias perferendis pariatur, facere debitis veritatis fugiat. Alias asperiores voluptatibus sed animi modi ut quod debitis, blanditiis et quia dignissimos, deleniti error, ipsa aut enim.
+              </div>
+              <div class="teamm_about">
+                <h1>JANE GALADRIEL</h1>
+                <small>CEO TENGKUPER</small>
+              </div>
+            </div>
+            <div class="cite">
+              <div class="txt">
+                4
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus earum, dolores eaque nostrum fuga tenetur quisquam officia harum nisi molestiae! Blanditiis nemo illum ut fuga totam commodi beatae veniam, vel rerum nihil nostrum magni laborum quas aperiam assumenda reprehenderit ducimus neque odio esse et repellat non quos error. Iure, sunt.
+              </div>
+              <div class="teamm_about">
+                <h1>JANE GALADRIEL</h1>
+                <small>CEO TENGKUPER</small>
+              </div>
+            </div>
+            <div class="cite">
+              <div class="txt">
+                5
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit consequatur sint necessitatibus earum odit, corporis cupiditate, recusandae in nam atque vitae vero eius distinctio dolore odio ipsa saepe, quibusdam ipsam. Illum odio recusandae dolores quod, mollitia, labore quis sunt saepe numquam impedit tenetur nam minima vel. Modi asperiores recusandae dolorem.
+              </div>
+              <div class="teamm_about">
+                <h1>JANE GALADRIEL</h1>
+                <small>CEO TENGKUPER</small>
+              </div>
+            </div>
+          </div>
+          <div class="pics">
+            <a class="prev" onclick="previousCite()">&#10094</a>
+            <img src="images/pics1.png" alt="" class="b_t_n act_btn" onclick="chooseCite(0)">
+            <img src="images/pics2.png" alt="" class="b_t_n" onclick="chooseCite(1)">
+            <img src="images/pics3.png" alt="" width="45px" class="b_t_n" onclick="chooseCite(2)">
+            <img src="images/pics4.png" alt="" class="b_t_n" onclick="chooseCite(3)">
+            <img src="images/pics5.png" alt="" class="b_t_n" onclick="chooseCite(4)">
+            <a class="next" onclick="nextCite()">&#10095</a>
+          </div>
+        
+        </div>
+      </div>
+
+      <div id="contacts_us">
+        <div class="contacts">
+          <div class="container-fluid">
+            <div class="form">
+              <h1>GIVE US A GOOD NEWS</h1>
+              <form name="message" action="">
+                <input type="text" name="name" placeholder="Name"><br>
+                <input type="text" name="email" placeholder="Email"><br>
+                <input type="text" name="subject" placeholder="Subject"><br>
+                <textarea name="your_message" id="your_message" placeholder="Your Message"></textarea><br>
+                <input type="submit" class="tajam_btn" value="SUBMIT"></input>
+              </form>
+            </div>
+            <div class="clients">
+              <h1>OUR HAPPY CLIENT</h1>
+              <div class="clients_logo">
+                <img src="images/clients.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </div>   
+      
+  </div>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="about">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo.png" alt="">
+            <div class="logo_text">
+              <h1>tajam</h1>
+            </div>
+          </a>
+        </div>
+        <div class="about_text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui omnis explicabo quos quam sequi, ea similique, numquam magni, cupiditate hic distinctio asperiores reiciendis rerum veritatis.
+        </div>
+      </div>
+      <div class="our_studio">
+        <h2>OUR STUDIO</h2>
+        <div class="address">
+          <img src="images/address.png" alt="" height="100%">
+          <p>ул. Lorem Ipsum, 28, дом 3б</p>
+        </div>
+        <div class="phone">
+          <img src="images/phone.png" alt="" height="100%">
+          <p>(+62) 21-2224 3333</p>
+        </div>
+      </div>
+      <div class="stay_touch">
+        <h2>STAY IN TOUCH</h2>
+        <div class="newsletter">
+          <input type="text" name="newsletter" placeholder="Subscribe our newsletter">
+          <a href=""><img src="images/newsletter.png" alt=""></a>
+        </div>
+        <div class="social">
+          <img src="images/socialmedia.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="end_footer">
+      <div class="container-fluid">
+        <div class="pages">
+          <ul>
+            <li><a href="">HELP</a></li>
+            <li><a href="">TERMS & CONDITIONS</a></li>
+            <li><a href="">PRIVACY</a></li>
+          </ul>
+        </div>
+        <div class="copyright">
+          Copyright &copy 2017 — Daniil Gray
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- <div id="toTop"><img src="images/top.png" alt=""></div> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+  <script src="js/menu.min.js" defer></script>
+  <script src="js/slider.min.js" defer></script>
+  <script src="js/cites.min.js" defer></script>
+  <script src="js/fixed-menu.min.js" defer></script>
+  <script src="http://vjs.zencdn.net/6.2.7/video.js" defer></script>
+  <script src="js/video.min.js" defer></script>
+
+</body>
+</html>
